@@ -27,9 +27,9 @@ $ npm run dev
 
 Kickstart uses a number of open source projects to work properly:
 
-* [ReactJS] - HTML enhanced for web apps!
-* [node.js] - evented I/O for the backend
-* [Next] - fast node.js network app framework
-* [Solidity] - a contract-oriented programming language for writing smart contracts
-* [Ethereum] - an open-source, public, blockchain-based distributed computing platform and operating system featuring smart contract functionality
-* [Rinkby Testnet] - a clone of the Ethereum network that allows to deploy and test smart contracts
+* React - HTML enhanced for web apps!
+* node.js - evented I/O for the backend
+* NextJS - fast node.js network app framework
+* Solidity - a contract-oriented programming language for writing smart contracts
+* Ethereum - an open-source, public, blockchain-based distributed computing platform and operating system featuring smart contract functionality
+* Rinkby Testnet - a clone of the Ethereum network that allows to deploy and test smart contracts
