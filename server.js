@@ -9,8 +9,9 @@ const app = next({
 const handler = routes.getRequestHandler(app);
 
 app.prepare().then(() => {
-    createServer(handler).listen(3000, (error) => {
+    createServer(handler).listen(process.env.PORT || 3000, (error) => {
        if(error) throw error;
-       console.log('Ready on localhost:3000');
+       // console.log('Ready on localhost:3000');
+        console.log("App running on Port " + process.env.PORT + ' or ' + " 3000 ");
     });
 });
