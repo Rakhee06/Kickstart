@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
     "dev": "node server.js",
-    "next": "next build",
+    "build": "next build",
     "start": "NODE_ENV=production node server.js"
   },
   "author": "",
