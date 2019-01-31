@@ -35,4 +35,6 @@ Kickstart uses a number of open source projects to work properly:
 * Rinkby Testnet - a clone of the Ethereum network that allows to deploy and test smart contracts
 
 ### Link to the deployed Application
+Note : Need a web3 provider injected in the browser and a valid ethereum account to use the application.
+
 https://kickstart-rakhee.herokuapp.com
