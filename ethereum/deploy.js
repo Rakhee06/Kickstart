@@ -4,9 +4,9 @@ const compiledFactory = require('./build/CampaignFactory');
 
 const provider = new HDWalletProvider(
     //give access to account mnemonic
-    'relax safe eager uphold toddler spare vote crucial mean science raccoon height',
+    // provide your metamask account mnemonic
     //link to RinkeBy network
-    'https://rinkeby.infura.io/v3/b3252b2f070842128a6dea2d8ea8814e'
+    // provide the link to your infura network
 );
 const web3 = new Web3(provider);
 
